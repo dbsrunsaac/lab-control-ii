@@ -29,11 +29,11 @@ R1=R2=R3=R; R4; R5
 Y el valor de capacitancia para C2
 """
 # CONSTANTES
-caps1 = [100, 120, 160, 220, 270, 330, 390, 470, 680, 1000, 2200, 4700, 10000]
-C1 = [cap*10**-9  for cap in caps1]
+caps1 = [10, 33, 47, 100, 330]
+C1 = [cap*10**-6  for cap in caps1]
 
-caps3 = [100, 120, 160, 220, 270, 330, 390, 470, 680, 1000, 2200, 4700, 10000]
-C3 = [cap*10**-9 for cap in caps3]
+caps3 = [10, 47]
+C3 = [cap*10**-6 for cap in caps3]
 
 def calculo_resistencias(A, B, C, D, E, G, C1, C3) :
 
